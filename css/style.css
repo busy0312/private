@@ -132,6 +132,20 @@ section:last-child {
 	width: 72.5%;
 }
 
+#sectionDetail article li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+	/* background-color: #f44336; */
+	color:peru;
+	text-align: start;
+	text-decoration: none;
+	display: inline-block;
+}
 .sectionTitle h1 {
 	font-family:Georgia, serif;
 	font-style: italic;
